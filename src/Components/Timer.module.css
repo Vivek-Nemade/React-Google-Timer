@@ -1,0 +1,47 @@
+.timer {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 30px;
+}
+.timer > button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.start {
+  background-color: rgb(35, 140, 221);
+  color: white;
+  border: none;
+}
+.start:hover {
+  background-color: rgb(27, 118, 187);
+}
+.inputDiv {
+  border: 1px solid gray;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  height: 100px;
+  display: flex;
+  /* margin-left: 25px; */
+  /* padding-top: 40px; */
+  padding-left: 25px;
+  align-items: center;
+}
+.inputDiv > input {
+  height: 50px;
+  font-size: 50px;
+  width: 80px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: right;
+}
+.inputDiv > p {
+  padding-top: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+}

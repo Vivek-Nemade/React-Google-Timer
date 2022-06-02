@@ -1,0 +1,41 @@
+.stopwatch {
+  display: flex;
+  margin-left: 30px;
+}
+.stopwatch > button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.start {
+  background-color: rgb(35, 140, 221);
+  color: white;
+  border: none;
+}
+.start:hover {
+  background-color: rgb(27, 118, 187);
+}
+.inputDiv {
+  display: flex;
+  margin-left: 25px;
+  width: 220px;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputDiv > h3 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.inputDiv > p {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.milisec {
+  font-size: 35px;
+  padding-top: 15px;
+}
